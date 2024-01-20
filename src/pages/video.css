@@ -1,0 +1,35 @@
+.video_container{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+.video-background{
+    /* position:absolute; */
+    background: url("http://127.0.0.1:5000/video");
+    opacity: 50%;
+    filter: blur(8px);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video{
+    background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0, 0.4);
+    z-index: 100;
+    border: 1rem solid rgb(30, 30, 30);
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 40vw;
+
+}
+.coutdown_text{
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    transition: all 1s ease-in-out;
+}
